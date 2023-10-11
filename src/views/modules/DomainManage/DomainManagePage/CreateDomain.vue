@@ -236,7 +236,7 @@ export default {
       this.error = false
       this.form.pid = JSON.stringify(event).split('-')[0].substring(2)
       if (this.form.pid != 1) {
-        this.$toast.add({severity: 'info', summary: '只能在"海关总署"下创建域！ ', life: 3000});
+        this.$toast.add({severity: 'info', summary: '只能在"根域"下创建域！ ', life: 3000});
         this.treeSelect = {}
         this.treeSelect['1-0'] = true
         this.form.pid = 1
