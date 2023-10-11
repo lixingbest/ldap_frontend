@@ -1,0 +1,67 @@
+.p-button.p-button-link:enabled:focus {
+  box-shadow: none;
+}
+
+.p-button {
+  height: 29px;
+  border-radius: 7px;
+}
+
+.p-button:focus {
+  box-shadow: 0 0 0 0.2rem $inputBoxShow;
+}
+
+.p-button, .p-button:enabled:hover {
+  background: $inputBorderColor;
+  border: 1px solid $inputBorderColor;
+
+}
+
+.p-button.p-button-outlined {
+  color: $inputBorderColor;
+  border-color: $inputBorderColor;
+}
+
+.p-radiobutton .p-radiobutton-box.p-highlight, .p-radiobutton .p-radiobutton-box.p-highlight:not(.p-disabled):hover {
+  border-color: $inputBorderColor;
+  background: $inputBorderColor;
+}
+.p-button.p-button-text{
+  color: $inputBorderColor;
+}
+
+.p-radiobutton .p-radiobutton-box:not(.p-disabled).p-focus {
+  box-shadow: none;
+}
+
+.p-radiobutton .p-radiobutton-box:not(.p-disabled):not(.p-highlight):hover {
+  border-color: $inputBorderColor;
+}
+
+.p-radiobutton .p-radiobutton-box:focus:not(:hover) {
+  border: none;
+}
+
+
+
+.p-checkbox .p-checkbox-box.p-highlight{
+  background-color: $inputBorderColor;
+  border-color: $inputBorderColor;
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover{
+  border-color: $inputBorderColor;
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:visited{
+  border-color: $inputBorderColor;
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover{
+  background-color: $inputBorderColor;
+  border-color: $inputBorderColor;
+}
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus{
+  box-shadow: none;
+  outline: none;
+}
+.p-checkbox-box{
+  outline: none;
+}

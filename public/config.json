@@ -1,0 +1,9 @@
+{
+  "service_url": "http://127.0.0.1:9000/service",
+  "release_date": "2023-01-05",
+  "version": "4.0.31",
+  "monitor": [
+    "http://192.168.1.20",
+    "http://192.168.1.22"
+  ]
+}

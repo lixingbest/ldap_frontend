@@ -1,0 +1,152 @@
+.page {
+    height: calc(100% - 2rem - 52px);
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 0;
+    margin-right: 1.5rem !important;
+    overflow: hidden;
+    display: flex;
+    transition: margin 0.2s;
+    box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.p-0 {
+    padding: 0;
+}
+.required{
+    color: red;
+    margin-right: .5rem;
+}
+.p-sidebar-header-content{
+    flex:1;
+    font-size: 16px;
+}
+.border-b {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.border-r {
+    width:280px;
+    border-right: 1px solid #dee2e6;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1rem;
+}
+
+.p-col-9, .p-col-3 {
+    height: 100%;
+}
+
+.required {
+    color: red;
+    width: 5px;
+    margin-right: 5px;
+}
+
+.noRequired {
+    margin-left: 10px;
+}
+
+.table-title {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.from {
+    display: flex;
+}
+
+.form-item {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    width: 100%;
+    line-height: 50px;
+    padding: 0 10px 0 20px;
+    font-weight: 600;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-toast-top-right {
+    top: 100px !important;;
+}
+
+.p-toast-message-content {
+    align-items: center !important;
+}
+
+.p-toast .p-toast-message .p-toast-message-content .p-toast-detail {
+    margin: 0;
+}
+
+.p-contextmenu {
+    border-radius: 4px;
+}
+
+.p-datatable-scrollable .p-datatable-thead > tr > th, .p-datatable-scrollable .p-datatable-tbody > tr > td, .p-datatable-scrollable .p-datatable-tfoot > tr > td {
+    overflow: hidden;
+}
+
+.text-ellipsis {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.p-tieredmenu .p-menuitem.p-menuitem-active > .p-menuitem-link, .p-tieredmenu .p-menuitem-link .p-menuitem-text {
+    color: inherit;
+}
+
+.p-tieredmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-icon, .p-tieredmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-submenu-icon {
+    color: inherit;
+}
+
+.p-tieredmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text, .p-tieredmenu .p-menuitem-link, .p-tieredmenu .p-menuitem-link .p-menuitem-icon {
+    color: inherit;
+}
+
+.p-menuitem-link, .p-menuitem-text {
+    color: inherit;
+}
+
+.p-contextmenu .p-menuitem > .p-menuitem-link {
+    color: inherit;
+}
+
+.p-contextmenu .p-menuitem > .p-menuitem-link .p-menuitem-text {
+    color: inherit;
+}
+
+.p-contextmenu .p-menuitem.p-menuitem-active > .p-menuitem-link {
+    color: inherit;
+}
+
+.p-contextmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-icon {
+    color: inherit;
+}
+
+.p-contextmenu .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text {
+    color: inherit;
+}
+
+.p-overlaypanel .p-overlaypanel-close {
+    background: #113066 !important;
+}
+
+

@@ -1,0 +1,39 @@
+.p-dropdown:not(.p-disabled).p-focus, .p-inputtext:not(.p-disabled).p-focus {
+  border-color: $inputBorderColor;
+  box-shadow: 0 0 0 0.2rem $inputBoxShow;
+}
+
+.p-dropdown:not(.p-disabled):hover, .p-inputtext:not(.p-disabled):hover {
+  border-color: $inputBorderColor;
+}
+
+
+.p-inputtext {
+  //border: 1px solid $inputBorderColor;
+  padding: 0 0.5rem;
+  line-height: 27px;
+}
+
+.p-inputtext:enabled:focus {
+  border-color: $inputBorderColor;
+  box-shadow: 0 0 0 0.2rem $inputBoxShow;
+}
+.p-treeselect:not(.p-disabled).p-focus{
+  border-color: $inputBorderColor;
+  box-shadow: 0 0 0 0.2rem $inputBoxShow;
+}
+.p-treeselect:not(.p-disabled):hover{
+  border-color: $inputBorderColor;
+}
+.p-tree .p-tree-container .p-treenode .p-treenode-content:focus {
+  box-shadow: 0 0 0 0.2rem $inputBoxShow;
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler:focus {
+  box-shadow: 0 0 0 0.2rem $inputBoxShow;
+}
+
+
+.p-tabmenu .p-tabmenu-nav .p-tabmenuitem .p-menuitem-link:not(.p-disabled):focus {
+  box-shadow: none;
+}
